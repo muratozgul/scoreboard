@@ -14,7 +14,8 @@
     "build": "tsc",
     "test": "jest",
     "lint": "eslint src --ext .ts",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json}\""
   },
   "dependencies": {
     "zod": "^3.24.1"
